@@ -1,0 +1,198 @@
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+#container
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+
+}
+.icon {
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+  }
+
+
+#q
+{
+    border-radius: 25px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid grey;
+}
+#q:hover
+{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+
+input[type=submit]:hover
+ {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+  }
+
+  .center
+  {
+      text-align: center;
+      margin-top: 200px;
+  }
+
+  .center .logotext {
+    color: #4285f4;
+  }
+
+input[type=submit]
+{
+    font-size: 14px;
+    width: 140px;
+    height: 30px;
+}
+
+#container2
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    img
+    {
+        width: 100px;
+        height: 30px;
+        margin-right: 1050px;
+        padding-top: 10px;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+    }
+}
+
+#advanced1
+{
+    $color: #E04F19;
+    color: $color;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+hr.solid
+{
+    border-top: 3px solid #bbb;
+}
+
+
+#contt
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+
+  #div1
+  {
+      background-color: green;
+      width:150px;
+      height: 400px;
+      margin: 10px;
+      font-size: 14px;
+
+  }
+  #div2
+  {
+      background-color: green;
+      width:500px;
+      height: 400px;
+      margin: 10px;
+
+  }
+  #div3
+  {
+      background-color: green;
+      width:400px;
+      height: 400px;
+      margin: 10px;
+  }
+
+}
+
+#grid
+{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 13px;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item
+{
+
+    text-align: left;
+
+    input[type=text]:focus
+    {
+        outline: none;
+        border: 2px solid #357EC7;
+    }
+
+}
+
+
+#smallfont
+{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#mediumfont
+{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.advancedbox
+{
+    width: 550px;
+    height: 23px;
+}
+#smallbox
+{
+    height: 23px;
+    width: 260px;
+}
+
+button
+{
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 675px;
+    font-size: smaller;
+    border: 1px solid #156bbd;
+    color: white;
+}
+
+
+

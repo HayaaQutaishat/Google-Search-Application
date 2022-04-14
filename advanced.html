@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="search.css">
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+        <div id="container2">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <a href="index.html">Google Search</a>
+            <a href="image.html">Google Images</a>
+        </div>
+
+        <div id="advanced1">
+        <p>Advanced Search</p>
+        </div>
+        <hr class="rounded">
+
+
+        <form action="https://www.google.com/search" method="get">
+            <div id="grid">
+                <div class="grid-item">Find pages with...</div>
+                <div class="grid-item"></div>
+                <div class="grid-item">To do this in the search box</div>
+                <div id="mediumfont" class="grid-item">all these words:</div>
+                <div class="grid-item"><input class="advancedbox" type="text" name="as_q"></div>
+                <div id="smallfont" class="grid-item">Type the important words: tri-colour rat terrier</div>
+                <div id="mediumfont" class="grid-item">this exact word or phrase:</div>
+                <div class="grid-item"><input class="advancedbox" type="text" name="as_epq"></div>
+                <div id="smallfont" class="grid-item">Put exact words in quotes: "rat terrier"</div>
+                <div id="mediumfont" class="grid-item">any of these words:</div>
+                <div class="grid-item"><input class="advancedbox" type="text" name="as_oq"></div>
+                <div id="smallfont" class="grid-item">Type OR between all the words you want: miniature OR standard</div>
+                <div id="mediumfont" class="grid-item">none of these words:</div>
+                <div class="grid-item"><input class="advancedbox" type="text" name="as_eq"></div>
+                <div id="smallfont" class="grid-item">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+            </div>
+            <div>
+                <button id="btn" type="submit">Advanced Search</button>
+            </div>
+
+        </form>
+
+    </body>
+</html>
