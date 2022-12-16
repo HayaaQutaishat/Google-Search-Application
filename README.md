@@ -1,4 +1,4 @@
-# CS50W-Project0-Search
+# Google Search Frontend Application
 Design a front-end for Google Search, Google Image Search, and Google Advanced Search, using HTML and SCSS
 
 
